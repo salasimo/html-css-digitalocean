@@ -60,3 +60,10 @@ nav.navbar.navbar-default{
     top: 50%;
     transform: translateY(-50%);
 }
+
+.ms--dropdown:after{
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    margin-left: 5px;
+
+}
