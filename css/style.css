@@ -124,15 +124,36 @@ a#ms--signup{
 
 
 .ms--jumbo{
-    background-color:
+    background-image: url('../img/bg-jumbo.jpg');
+
+
 }
 
 
+.ms--form-box{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left:30px;
+    padding-right:30px;
+}
 
+.ms--or-line{
+    border: 0.5px solid lightgray;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+    transform: translateY(23px);
 
+}
 
+.ms--or{
+    display: inline-block;
+    background-color: #fff;
+    padding: 5px;
 
-
+    position: relative;
+}
 
 
 
