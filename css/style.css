@@ -1,0 +1,35 @@
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+/* colori
+=========== */
+
+.ms--bg-light{
+    background-color: #fff;
+    color: #031b4e;
+}
+
+.ms--bg-primary{
+    background-color: #0248ff;
+    color: #fff;
+}
+
+.ms--bg-blue{
+    background-color: #001f9b;
+    color: #fff;
+}
+
+.ms--bg-gray{
+    background-color: #f3f5f9;
+    color: #031b4e;
+}
+
+.ms--bg-dark{
+    background-color: #031b4e;
+    color: #fff;
+}
+
+/*===========*/
