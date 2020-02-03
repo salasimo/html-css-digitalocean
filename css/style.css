@@ -1,225 +1,192 @@
 .clearfix:after {
-    content:"";
+    content: "";
     display: table;
     clear: both;
 }
 
-*{
-
+* {
     box-sizing: border-box;
 }
 
 /* colori
 =========== */
-
-.ms--bg-light{
+.ms--bg-light {
     background-color: #fff;
     color: #031b4e;
 }
 
-.ms--bg-primary{
+.ms--bg-primary {
     background-color: #0248ff;
     color: #fff;
 }
 
-.ms--bg-blue{
+.ms--bg-blue {
     background-color: #001f9b;
     color: #fff;
 }
 
-.ms--bg-gray{
+.ms--bg-gray {
     background-color: #f3f5f9;
     color: #031b4e;
 }
 
-.ms--bg-dark{
+.ms--bg-dark {
     background-color: #031b4e;
     color: #fff;
 }
 
 /*===========*/
-
-header{
+header {
     position: relative;
 }
 
-nav.navbar.navbar-default{
+nav.navbar.navbar-default {
     border: 0;
     border-radius: 0;
     height: 60px;
     background-color: red;
     position: relative;
-
 }
 
-.container-fluid{
-    padding:0 20px;
-    margin:0;
+.container-fluid {
+    padding: 0 20px;
+    margin: 0;
     position: relative;
     vertical-align: middle;
-
 }
 
-#myNavbar{
+#myNavbar {
     border: 1px solid;
 }
 
-.navbar-header{
+.navbar-header {
     height: 60px;
     position: relative;
 }
 
-.navbar-brand{
-    padding-top:0;
-    padding-bottom:0;
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
     margin-right: 40px;
     height: 60px;
-
 }
-.navbar-brand img{
+
+.navbar-brand img {
     position: relative;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
 }
 
-.ms--dropdown:after{
+.ms--dropdown:after {
     content: "\f0d7";
     font-family: "Font Awesome 5 Free";
     margin-left: 5px;
-
 }
 
-.navbar-default .navbar-nav > li > a{
+.navbar-default .navbar-nav>li>a {
     color: #031b4e;
     font-weight: 500;
     position: relative;
-
     padding: 0;
     margin-left: 15px;
 }
 
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-default .navbar-nav>li>a:hover {
     color: #0248ff;
 }
 
-.navbar-right{
+.navbar-right {}
 
-}
-
-a#ms--signup{
+a#ms--signup {
     color: #0248ff;
     margin: 0;
     border: 1px solid #0248ff;
-
-
-
 }
 
-#ms--signup-item{
-
-}
-
+#ms--signup-item {}
 
 /*=========JUMBO===========*/
-
-
-
-
-
-.ms--form-box{
+.ms--form-box {
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left:30px;
-    padding-right:30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.ms--or-line{
+.ms--or-line {
     border: 0.5px solid lightgray;
     width: 100%;
     display: inline-block;
     position: relative;
     bottom: 3px;
     transform: translateY(23px);
-
 }
 
-.ms--or{
+.ms--or {
     display: inline-block;
     background-color: #fff;
     padding: 5px;
-
     position: relative;
 }
 
 /* SOLUTIONS======= */
-.ms--logo-content{
+.ms--logo-content {
     height: 120px;
 }
-.solutions img{
+
+.solutions img {
     width: 150px;
-
-
     position: relative;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
 }
 
-
-
-.ms--flex{
+.ms--flex {
     display: inline;
-
-    vertical-align:bottom;
+    vertical-align: bottom;
 }
 
-
 /*=========DEPLOY AND SCALE===========*/
+/*=========Designed for developers===========*/
+/*====The features your business needs======= */
+/* =====Service your customers====== */
+.ms--table-row {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+/* =====love====== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* =====get started====== */
+.get-started{
+    background-image: url('../img/bg-jumbo.jpg');
+}
 
 /* media queries
 =================
  */
-
 @media screen and (min-width: 850px) {
-    .navbar-default .navbar-nav > li > a{
+    .navbar-default .navbar-nav>li>a {
         margin-left: 40px;
     }
-
 }
 
 @media screen and (min-width: 768px) {
-    .ms--jumbo{
+    .ms--jumbo {
         background-image: url('../img/bg-jumbo.jpg');
+    }
+
+    .solutions img {
+        width: 100px;
+    }
 }
-.solutions img{
-    width: 100px;
 
+@media screen and (min-width: 992px) {
+    .ms--block-service-1 .ms--table-row {
+        margin-right: 10px;
+    }
 
-
+    .ms--block-service-2 .ms--table-row {
+        margin-left: 10px;
+    }
 }
