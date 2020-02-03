@@ -123,11 +123,7 @@ a#ms--signup{
 /*=========JUMBO===========*/
 
 
-.ms--jumbo{
-    background-image: url('../img/bg-jumbo.jpg');
 
-
-}
 
 
 .ms--form-box{
@@ -155,8 +151,28 @@ a#ms--signup{
     position: relative;
 }
 
+/* SOLUTIONS======= */
+.ms--logo-content{
+    height: 120px;
+}
+.solutions img{
+    width: 150px;
+    
+
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
 
 
+
+
+
+.ms--flex{
+    display: inline;
+
+    vertical-align:bottom;
+}
 
 
 
@@ -196,5 +212,16 @@ a#ms--signup{
     .navbar-default .navbar-nav > li > a{
         margin-left: 40px;
     }
+
+}
+
+@media screen and (min-width: 768px) {
+    .ms--jumbo{
+        background-image: url('../img/bg-jumbo.jpg');
+}
+.solutions img{
+    width: 100px;
+
+
 
 }
