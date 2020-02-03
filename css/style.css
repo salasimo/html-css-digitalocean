@@ -157,14 +157,12 @@ a#ms--signup{
 }
 .solutions img{
     width: 150px;
-    
+
 
     position: relative;
     top:50%;
     transform: translateY(-50%);
 }
-
-
 
 
 
@@ -175,7 +173,7 @@ a#ms--signup{
 }
 
 
-
+/*=========DEPLOY AND SCALE===========*/
 
 
 
