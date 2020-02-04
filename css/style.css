@@ -35,6 +35,8 @@
     color: #fff;
 }
 
+/* ===generale=== */
+
 h1, h2, .solutions h4 {
     margin-top: 0;
 }
@@ -66,26 +68,34 @@ p{
 /*=====HEADER======*/
 header {
     position: relative;
+
+
+
 }
 
 nav.navbar.navbar-default {
     border: 0;
     border-radius: 0;
     height: 60px;
-    background-color: red;
-    position: relative;
+    background-color: #fff;
+    margin-bottom: 0px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 999;
+
+
 }
 
 .container-fluid {
     padding: 0 20px;
     margin: 0;
     position: relative;
-    vertical-align: middle;
+
 }
 
-#myNavbar {
-    border: 1px solid;
-}
+
 
 .navbar-header {
     height: 60px;
@@ -105,6 +115,10 @@ nav.navbar.navbar-default {
     transform: translateY(-50%);
 }
 
+img.ms--logo{
+    display: none;
+}
+
 .ms--dropdown:after {
     content: "\f0d7";
     font-family: "Font Awesome 5 Free";
@@ -117,23 +131,47 @@ nav.navbar.navbar-default {
     position: relative;
     padding: 0;
     margin-left: 15px;
+    display: inline-block;
+    line-height: 60px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
     color: #0248ff;
 }
 
-.navbar-right {}
+.navbar-toggle{
+    border: none;
+    position: relative;
+    top:6px;
+
+}
 
 a#ms--signup {
     color: #0248ff;
     margin: 0;
     border: 1px solid #0248ff;
+    line-height: 30px;
+    padding: 2px 15px;
+    border-radius: 5px;
 }
 
-#ms--signup-item {}
+a#ms--signup:hover{
+    background-color:#0248ff;
+    color:  #fff;
+}
+
+#ms--signup-item {
+    position: relative;
+    top:30px;
+    transform: translateY(-50%);
+
+}
 
 /*=========JUMBO===========*/
+.ms--jumbo{
+    padding-top: 60px;
+}
+
 .ms--jumbo h1 {
     font-size: 40px;
     font-weight: 700;
@@ -141,6 +179,7 @@ a#ms--signup {
 
 .ms--jumbo p {
     margin-top: 25px;
+    margin-bottom: 45px;
     font-weight: 300;
     letter-spacing: 1.2px;
     font-size: 24px;
@@ -583,6 +622,13 @@ footer img{
         transform: translateY(50%);
     }
 
+    img.ms--logo{
+        display: block;
+    }
+    img.ms--logo-white{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -603,4 +649,13 @@ footer img{
         margin-top: 60px;
         margin-bottom:60px;
     }
+}
+
+@media screen and (max-width: 767px) {
+    nav.navbar.navbar-default{
+        background-color: #0248ff;
+
+    }
+
+
 }
