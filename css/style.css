@@ -39,17 +39,29 @@ h1, h2, .solutions h4 {
     margin-top: 0;
 }
 
-p {
-    font-size: 24px;
-    opacity: 0.8;
+h2{
+    font-size: 38px;
+    font-weight: 600;
 }
+
+p{
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: #4e5f83;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
 
 .container {
     padding-top: 65px;
     padding-bottom: 65px;
-    margin-left: -15px;
-    margin-right: -15px;
+    width:100%;
+    max-width: 1000px;
+
 }
+
+
 
 /*=====HEADER======*/
 header {
@@ -131,7 +143,12 @@ a#ms--signup {
     margin-top: 25px;
     font-weight: 300;
     letter-spacing: 1.2px;
+    font-size: 24px;
+    opacity: 0.85;
+    color: #fff;
 }
+
+
 
 .ms--form-box {
     padding-top: 35px;
@@ -139,7 +156,7 @@ a#ms--signup {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 8px;
-    margin-top: 45px;
+
 }
 
 .ms--form-box span {
@@ -273,14 +290,66 @@ button.ms--account i {
 
 /*=========DEPLOY AND SCALE===========*/
 
-.deploy-scale
+.deploy-scale ul li{
+    list-style: none;
+    border-left: 2px solid lightgray;
+    padding-left: 30px;
+
+
+}
+
+.deploy-scale ul li:first-of-type{
+    border-left: 2px solid #005fe6;
+
+}
+
+.deploy-scale ul{
+    padding-left: 0;
+    margin-top: 50px;
+}
+
+.deploy-scale ul li a{
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    color: #939eb4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.deploy-scale ul li a.ms--v-menu-sel{
+    color: #031b4e;
+}
+
+.deploy-scale ul li a:hover{
+    color: #031b4e;
+    text-decoration: none;
+    transition: ease 0.4s;
+}
 
 
 
+/*---*/
 
+.deploy-scale h3, .features h3{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 
+.deploy-scale h3{
+    font-weight: 400;
+}
 
+.ms--p-small{
+    font-size: 16px;
+}
 
+.deploy-scale i, .features i{
+    font-size: 34px;
+    margin-top: 40px;
+    color: #005fe6;
+}
 
 
 
@@ -289,19 +358,203 @@ button.ms--account i {
 
 
 /*=========Designed for developers===========*/
-/*====The features your business needs======= */
-/* =====Service your customers====== */
-.ms--table-row {
-    border-bottom: 1px solid lightgrey;
-    padding-bottom: 8px;
-    padding-top: 8px;
+.designed h2{
+    margin-bottom: 20px;
+}
+.designed img{
+    margin-top: 60px;
+    border-radius: 5px;
 }
 
+.designed figcaption{
+    color: #4b5c81;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.ms--pallini{
+    margin-top: 25px;
+    color: #005fe6;
+    font-size: 12px;
+}
+
+
+/*====The features your business needs==== */
+
+
+.features i{
+    margin-top:40px;
+}
+
+.features a i{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.features a{
+    display: inline-block;
+    text-decoration: none;
+    color: #005fe6;
+    font-size: 16px;
+
+}
+
+
+/* =====Service your customers====== */
+.ms--table-row {
+    border-bottom: 0.5px solid lightgrey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ms--table-row:last-child{
+    border-bottom: 0px;
+}
+
+.ms--block-service-1{
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.service a{
+    color: #00d7d2;
+}
+
+.service a:hover{
+    text-decoration: none;
+    color: #005fe6;
+}
+
+
+
 /* =====love====== */
+
+.love h2{
+    margin-bottom: 30px;
+}
+
+.love p{
+    margin-bottom: 20px;
+}
+
+.ms--card{
+    border: 0.5px solid lightgray;
+    border-radius: 4px;
+    padding: 40px 25px;
+}
+
+.love .ms--card img{
+    width: 180px;
+    margin-bottom: 30px;
+}
+
+.love cite{
+    display: block;
+    font-size: 24px;
+    font-weight: 200;
+    color: #5b6b8c;
+    font-style: normal;
+    letter-spacing: 1.2px;
+}
+.love .ms--card span{
+    display: block;
+    color: #5b6b8c;
+
+}
+.ms--name{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.ms--role{
+    font-size: 12px;
+}
+
+.love a{
+    color: #005fe6;
+    margin-top: 30px;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 40px;
+
+}
+.love a:hover{
+text-decoration: none;
+}
+
 /* =====get started====== */
 .get-started {
     background-image: url('../img/bg-jumbo.jpg');
+    background-position: left;
 }
+
+.get-started h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.get-started button{
+    color: #005fe6;
+    background-color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 35px;
+}
+
+.get-started button:hover{
+    opacity: 0.8;
+    color: #005fe6;
+    border: none;
+}
+
+
+
+/*==== FOOTER ====*/
+
+
+footer.ms--bg-dark{
+    background-color: #010e28;
+}
+
+footer ul{
+    padding-left: 5px;
+}
+
+footer ul li{
+    list-style: none;
+
+}
+.ms-f-title{
+    font-weight: 600;
+
+}
+
+footer.ms--bg-dark ul li a{
+    color: #7b828f;
+    font-weight: 300;
+    line-height: 26px;
+
+}
+
+footer.ms--bg-dark ul li:last-of-type{
+
+    margin-bottom: 20px;
+}
+
+footer img{
+    margin-bottom: 30px;
+    width:70px;
+}
+
+
+
+
+
+
+
+
 
 /* media queries
 =================
@@ -320,14 +573,34 @@ button.ms--account i {
     .ms--logo-content img {
         width: 100px;
     }
+
+    .ms--copy{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .ms--intro-text{
+
+        transform: translateY(50%);
+    }
+
 }
 
 @media screen and (min-width: 992px) {
+
+    .ms--jumbo h1{
+        font-size: 60px;
+    }
     .ms--block-service-1 .ms--table-row {
         margin-right: 10px;
+
     }
 
     .ms--block-service-2 .ms--table-row {
         margin-left: 10px;
+        margin-bottom: 0;
+    }
+    .ms--block-service-2{
+        margin-top: 60px;
+        margin-bottom:60px;
     }
 }
